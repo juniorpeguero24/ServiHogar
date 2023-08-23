@@ -1,6 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .bg-header {
@@ -9,7 +12,9 @@
 }
 
 .navbar-brand img {
-  width: 8rem;
+  position: relative;
+  left: 1rem;
+  width: 10rem;
 }
 
 #navbarNav {
@@ -20,6 +25,7 @@
 header nav ul li a:hover {
   /* Cambio de forma al pasar por el boton */
   font-weight: bolder;
+  transition: 0.5s;
 }
 
 .nav-link {
@@ -39,6 +45,7 @@ header nav ul li a:hover {
 }
 
 header {
+  font-size: 1.2rem;
   border-bottom: 2px solid white;
 }
 
@@ -72,6 +79,7 @@ main {
 }
 
 .btn-warning a {
+  font-size: 1.2rem;
   color: black;
   text-decoration: none;
 }
@@ -79,6 +87,7 @@ main {
 .btn-warning a:hover {
   font-weight: bolder;
   background-color: #e8c22c;
+  transition: 0.5s;
 }
 
 .textoimagencentro {
@@ -88,7 +97,16 @@ main {
   background-color: rgb(0, 0, 0, 0.5);
 }
 
+.textoimagencentro h1 {
+  font-size: 3rem;
+}
+
+.textoimagencentro p {
+  font-size: 1.5rem;
+}
+
 .texto-promo {
+  font-size: 1.5rem;
   position: relative;
   bottom: 6rem;
   margin: 20px;
@@ -105,11 +123,6 @@ footer {
   justify-content: space-between;
   text-align: center;
   border-top: 2px solid white;
-}
-
-.contacto {
-  position: relative;
-  left: 1rem;
 }
 
 .contacto ul li a img {
@@ -134,6 +147,18 @@ footer {
 /* Medias para los celulares */
 
 @media (max-width: 575.98px) {
+  .textoimagencentro h1 {
+    font-size: 1.5rem;
+  }
+
+  .textoimagencentro p {
+    font-size: 1rem;
+  }
+
+  .texto-promo {
+    font-size: 1rem;
+  }
+
   footer {
     text-align: center;
     justify-content: center;
@@ -160,6 +185,7 @@ footer {
 
 .servicios-main h1 {
   color: white;
+  font-size: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: 1px dotted white;
@@ -175,9 +201,18 @@ footer {
   margin: 1rem;
 }
 
+.card-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
 .card-body {
   background-color: black;
   color: white;
+}
+
+.card-text {
+  font-size: 1.2rem;
 }
 
 .card-body img {
@@ -191,12 +226,14 @@ footer {
 .btn-primary {
   background-color: #ffde59;
   color: black;
+  font-size: 1.2rem;
 }
 
 .btn-primary:hover {
   background-color: #e8c22c;
   color: black;
   font-weight: bolder;
+  transition: 0.5s;
 }
 
 .proximamente img {
@@ -216,6 +253,10 @@ footer {
 
 .sobrenosotros-main {
   color: white;
+}
+
+.texto-sobrenosotros p {
+  font-size: 1.2rem;
 }
 
 .col video {
@@ -342,6 +383,7 @@ footer {
   background-color: #e8c22c;
   font-weight: bolder;
   border: 2px dotted white;
+  transition: 0.5s;
 }
 
 /* Quiero la configuracion de abajo quede activa una vez seleccionado la opcion
@@ -352,6 +394,7 @@ pero no lo logro */
   background-color: #e8c22c;
   font-weight: bolder;
   border: 2px dotted white;
+  transition: 0.5s;
 }
 
 .box-serv img {
@@ -368,6 +411,21 @@ pero no lo logro */
   border: 2px solid white;
   background-color: #ffde59;
   color: black;
+}
+
+.box-pagos:hover {
+  background-color: #e8c22c;
+  font-weight: bolder;
+  border: 2px dotted white;
+  transition: 0.5s;
+}
+
+.box-pagos:active,
+.box-pagos:focus {
+  background-color: #e8c22c;
+  font-weight: bolder;
+  border: 2px dotted white;
+  transition: 0.5s;
 }
 
 .form-check-label a {
