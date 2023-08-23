@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-header {
+  /* Cambio de color al fondo del modelo de bootstrap */
+  background-color: #ffde59;
+}
+
+.navbar-brand img {
+  width: 8rem;
+}
+
+#navbarNav {
+  /* Mover la seccion navegable a la derecha */
+  justify-content: end;
+}
+
+header nav ul li a:hover {
+  /* Cambio de forma al pasar por el boton */
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* Cambio de cada pill */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #e8c22c;
+  font-weight: bolder;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+header {
+  border-bottom: 2px solid white;
+}
+
+/* MAIN */
+
+main {
+  /* Pienso cambiar el background pero no he 
+  encontrado el fondo que sea adecuado */
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.inicio-container {
+  background-color: black;
+  color: white;
+}
+
+.carousel-item img {
+  /* Propiedades para las imagenes del carrusel */
+  margin-top: 20px;
+  width: 80%;
+  height: 40rem;
+  filter: blur(3px);
+  position: relative;
+  left: 11%;
+}
+
+.btn-warning {
+  background-color: #ffde59;
+}
+
+.btn-warning a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-warning a:hover {
+  font-weight: bolder;
+  background-color: #e8c22c;
+}
+
+.textoimagencentro {
+  position: relative;
+  bottom: 25rem;
+  padding: 2rem;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.texto-promo {
+  position: relative;
+  bottom: 6rem;
+  margin: 20px;
+  border: 1px dotted white;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ffde59;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-top: 2px solid white;
+}
+
+.contacto {
+  position: relative;
+  left: 1rem;
+}
+
+.contacto ul li a img {
+  width: 1rem;
+}
+
+.contacto ul li {
+  list-style: none;
+  position: relative;
+  right: 1.5rem;
+}
+
+.contacto ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.logofooter img {
+  width: 10rem;
+}
+
+/* Medias para los celulares */
+
+@media (max-width: 575.98px) {
+  footer {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .carousel-item img {
+    height: 20rem;
+  }
+
+  .textoimagencentro {
+    position: relative;
+    bottom: 15rem;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+}
+
+/* Servicio */
+
+.servicios-main {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.servicios-main h1 {
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px dotted white;
+}
+
+.cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.card-body img {
+  width: 5rem;
+}
+
+.card-title {
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #ffde59;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #e8c22c;
+  color: black;
+  font-weight: bolder;
+}
+
+.proximamente img {
+  width: 100%;
+  height: 20rem;
+  filter: blur(5px);
+  position: relative;
+  top: 5rem;
+}
+
+.proximamente h2 {
+  position: relative;
+  bottom: 5rem;
+}
+
+/* Sobre nosotros */
+
+.sobrenosotros-main {
+  color: white;
+}
+
+.col video {
+  position: relative;
+  top: 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .col video {
+    position: relative;
+    top: 0.1rem;
+    width: 15rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .col video {
+    position: relative;
+    top: 0.1rem;
+    width: 20rem;
+  }
+}
+
+/* Preguntas frecuentes */
+
+.faq {
+  padding: 1rem;
+}
+
+.accordion-button {
+  background-color: #ffde59;
+  /* width: 50%; */
+}
+
+.accordion-body {
+  background-color: black;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e8c22c;
+}
+
+/* Testimonios */
+
+.testimonios-main {
+  color: white;
+}
+
+.cartas-arriba {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cartas-abajo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  align-items: center;
+}
+
+.card-title img {
+  width: 2rem;
+  /* padding-right: 1rem; */
+}
+
+.formulario {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.form-control {
+  background-color: #ffde59;
+}
+
+.form-select {
+  background-color: #ffde59;
+}
+
+.form-control:focus {
+  background-color: #ffde59;
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+}
+
+/* Contacto */
+
+.contacto-main {
+  color: white;
+}
+
+.titulo-contacto {
+  font-size: 1.5rem;
+}
+
+.form-floating {
+  margin: 1rem;
+}
+
+.servicios-contacto {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-serv {
+  width: 10rem;
+  border: 2px solid white;
+  background-color: #ffde59;
+  color: black;
+}
+
+.box-serv:hover {
+  background-color: #e8c22c;
+  font-weight: bolder;
+  border: 2px dotted white;
+}
+
+/* Quiero la configuracion de abajo quede activa una vez seleccionado la opcion
+pero no lo logro */
+
+.box-serv:active,
+.box-serv:focus {
+  background-color: #e8c22c;
+  font-weight: bolder;
+  border: 2px dotted white;
+}
+
+.box-serv img {
+  width: 3rem;
+}
+
+.box-pagos img {
+  width: 3rem;
+}
+
+.box-pagos {
+  width: 8rem;
+  height: auto;
+  border: 2px solid white;
+  background-color: #ffde59;
+  color: black;
+}
+
+.form-check-label a {
+  color: white;
+}
+
+.form-check-label a:hover {
+  font-weight: bolder;
+}

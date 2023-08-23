@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Servicios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contacto-main">
+      <h1 class="text-center titulo-contacto">
+        Completa el formulario y te estaremos contactando<br />de inmediato para
+        arreglar las condiciones de tu servicio
+      </h1>
+      <!-- formulario para contratar el servicio -->
+      <div class="formulario">
+        <form action="#" method="get">
+          <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nombre"
+                aria-label="First name"
+                required
+              />
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Apellido"
+                aria-label="Last name"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese su Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="lionelmessi@gmail.com"
+                aria-label="Email"
+                required
+              />
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese su numero telefonico</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="cod. area + sin el 15"
+                aria-label="numero telefonico"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Calle</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Av. Colon"
+                aria-label="Calle"
+                required
+              />
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Numero</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="1234"
+                aria-label="Numero casa"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+            ></textarea>
+            <label for="floatingTextarea"
+              >Comentario adicional sobre el hogar</label
+            >
+          </div>
+          <h2 class="text-center">Ingrese Servicios a contratar</h2>
+          <!-- Boxes servicios -->
+          <div class="container text-center servicios-contacto">
+            <div class="row align-items-start justify-content-around">
+              <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <label for="input1">
+                  <div class="box-serv">
+                    <input type="checkbox" name="Limpieza" id="input1" />
+                    <img src="../IMG/logo-limpieza.png" alt="Logo limpieza" />
+                    <p>Limpieza</p>
+                  </div>
+                </label>
+              </div>
+              <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <label for="input2">
+                  <div class="box-serv">
+                    <input type="checkbox" name="Gasista" id="input2" />
+                    <img src="../IMG/logo-gasista.png" alt="Logo gasista" />
+                    <p>Gasista</p>
+                  </div>
+                </label>
+              </div>
+              <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <label for="input3">
+                  <div class="box-serv">
+                    <input type="checkbox" name="Electricista" id="input3" />
+                    <img
+                      src="../IMG/logo-electricista.png"
+                      alt="Logo electricistas"
+                    />
+                    <p>Electricista</p>
+                  </div>
+                </label>
+              </div>
+              <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <label for="input4">
+                  <div class="box-serv">
+                    <input type="checkbox" name="Plomeria" id="input4" />
+                    <img src="../IMG/logo-plomero.png" alt="Logo Plomero" />
+                    <p>Plomeria</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Boxes forma de pago -->
+          <h3 class="text-center">Forma de Pago</h3>
+          <p class="text-center">
+            (De preferencia) Luego de la cotizacion de su servicio se vuelve a
+            confirmar la forma de pago
+          </p>
+          <div class="container text-center">
+            <div class="row align-items-start justify-content-around">
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <label for="input5">
+                  <div class="box-pagos">
+                    <input type="checkbox" name="efectivo" id="input5" />
+                    <img src="../IMG/efectivo.png" alt="Logo efectivo" />
+                    <p>Efectivo</p>
+                  </div>
+                </label>
+              </div>
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <label for="input6">
+                  <div class="box-pagos">
+                    <input
+                      type="checkbox"
+                      name="tarjeta de credito"
+                      id="input6"
+                    />
+                    <img
+                      src="../IMG/tarjeta.png"
+                      alt="Logo tarjeta de credito"
+                    />
+                    <p>Tarjeta Debito/Credito</p>
+                  </div>
+                </label>
+              </div>
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <label for="input7">
+                  <div class="box-pagos">
+                    <input type="checkbox" name="transferencia" id="input7" />
+                    <img src="../IMG/banco.png" alt="Logo banco" />
+                    <p>Transferencia Bancaria</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Comentarios adicionales</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                <a href="#">Aceptar los terminos y condiciones</a>
+              </label>
+              <div class="invalid-feedback">
+                Deberias Aceptar los terminos y condiciones antes de enviar
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contacto col-12 col-sm-12 col-md-4 col-lg-4">
+        <h3>Contacto</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-facebook.png"
+                alt="Logo Facebook"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-instagram.png"
+                alt="Logo Instagram"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-twitter.png"
+                alt="Logo Twitter"
+              />Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <h3 class="col-12 col-sm-12 col-md-4 col-lg-4">Derechos de Autor</h3>
+      <div class="logofooter col-12 col-sm-12 col-md-4 col-lg-4">
+        <img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar" />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

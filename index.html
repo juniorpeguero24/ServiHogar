@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ServiHogar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Header realizado con bootstrap -->
+      <nav class="navbar navbar-expand-lg bg-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HTML/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HTML/sobrenosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HTML/testimonios.html">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HTML/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="inicio-container">
+      <!-- Carrusel de imagenes con bootstrap-->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img
+              src="IMG/plomeria-main.jpg"
+              class="d-block rounded"
+              alt="plomeria"
+            />
+          </div>
+          <div class="carousel-item text-center">
+            <img
+              src="IMG/electricista-main.jpg"
+              class="d-block rounded"
+              alt="electricidad"
+            />
+          </div>
+          <div class="carousel-item text-center">
+            <img
+              src="IMG/gasista-main.jpg"
+              class="d-block rounded"
+              alt="gasista"
+            />
+          </div>
+          <div class="carousel-item text-center">
+            <img src="IMG/limpieza-main.jpg" class="d-block" alt="limpieza" />
+          </div>
+        </div>
+      </div>
+      <div class="text-center textoimagencentro">
+        <!-- Texto + boton centrado en el medio del carrusel -->
+        <h1>SERVIHOGAR</h1>
+        <p>Tu necesidad nuestro servicio</p>
+        <button type="button" class="btn btn-warning">
+          <a href="HTML/contacto.html">Contratar</a>
+        </button>
+      </div>
+      <div class="text-center texto-promo">
+        <!-- Texto introductorio sobre la empresa -->
+        <p>
+          ServiHogar es una empresa dedicada a brindar servicios domésticos de
+          confianza y alta calidad.
+          <br />Nuestro equipo de profesionales capacitados ofrece una amplia
+          gama de servicios, que incluyen limpieza, gasista, electricistas,
+          plomería y proximamente muchos más. <br />Nos enorgullecemos de
+          satisfacer las necesidades de nuestros clientes, proporcionando
+          soluciones efectivas y eficientes para mantener sus hogares en óptimas
+          condiciones. <br />Con ServiHogar, puedes estar seguro de recibir un
+          servicio personalizado, puntual y confiable que superará tus
+          expectativas. <br />Simplifica tu vida y confía en nosotros para que
+          tu hogar esté en las mejores manos.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <!-- footer utilizando las propiedades de col que nos da
+      bootstrap -->
+      <div class="contacto col-12 col-sm-12 col-md-4">
+        <h3>Contacto</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="IMG/logo-facebook.png"
+                alt="Logo Facebook"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="IMG/logo-instagram.png"
+                alt="Logo Instagram"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="IMG/logo-twitter.png" alt="Logo Twitter" />Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <h3 class="col-12 col-sm-12 col-md-4 col-lg-4">Derechos de Autor</h3>
+      <div class="logofooter col-sm-12 col-md-4 col-lg-4">
+        <img src="IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar" />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

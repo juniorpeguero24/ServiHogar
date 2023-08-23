@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Servicios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="testimonios.html"
+                  >Testimonios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="testimonios-main">
+      <!-- titulo -->
+      <h2 class="text-center">Clientes Satisfechos</h2>
+      <!-- Las 3 cartas de arriba -->
+      <div class="cartas-arriba">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="../IMG/Avatar-mujer.png" alt="Avatar mujer" />María G.
+            </h5>
+            <p class="card-text">
+              "Increíble servicio de limpieza. Mi casa nunca ha estado tan
+              reluciente. ¡Gracias, ServiHogar!"
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img
+                src="../IMG/avata-hombre.png"
+                alt="Avatar avata-hombre"
+              />Juan P.
+            </h5>
+            <p class="card-text">
+              "Los plomeros de ServiHogar resolvieron mi problema rápidamente y
+              a un precio justo. ¡Los recomiendo!"
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="../IMG/avatar-mujer2.png" alt="Avatar mujer" /> Laura M.
+            </h5>
+            <p class="card-text">
+              "Excelente atención al cliente. Los gasistas de ServiHogar me
+              ayudaron con la instalación de gas y todo salió perfecto."
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 3 cartas de abajo -->
+      <div class="cartas-abajo">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="../IMG/avatar-hombre2.png" alt="Avatar hombre" />Carlos
+              R.
+            </h5>
+            <p class="card-text">
+              "Los electricistas de ServiHogar hicieron un trabajo impecable.
+              Ahora me siento seguro en mi hogar."
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="../IMG/avatar-mujer3.png" alt="Avatar Mujer" />Ana S.
+            </h5>
+            <p class="card-text">
+              "Contraté a ServiHogar para una limpieza profunda antes de una
+              reunión importante y quedé asombrada con el resultado."
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="../IMG/avatar-hombre3.png" alt="Avatar hombre" />Diego
+              L.
+            </h5>
+            <p class="card-text">
+              "El equipo de ServiHogar fue muy profesional y atento. Los
+              recomendaré a mis amigos y familiares."
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Decidi agregarle este formulario donde la gente puede mandar 
+      sus opiniones sobre el servicio, que tampoco estaba pensado en el momento
+    que realice el wireframe -->
+      <!-- Comentarios que puede enviar la gente -->
+      <!-- formulario -->
+      <h2 class="text-center">¿Queres dejarnos tu comentario?</h2>
+      <form action="#" method="get">
+        <div class="formulario">
+          <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nombre"
+                aria-label="First name"
+                required
+              />
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <label for="form-control">Ingrese Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Apellido"
+                aria-label="Last name"
+                required
+              />
+            </div>
+          </div>
+          <div class="sexo">
+            <label for="form-select">Sexo</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Seleccione sexo</option>
+              <option value="1">Masculino</option>
+              <option value="2">Femenino</option>
+              <option value="3">Otro</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Opinion sobre el servicio</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <div class="contacto col-12 col-sm-12 col-md-4 col-lg-4">
+        <h3>Contacto</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-facebook.png"
+                alt="Logo Facebook"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-instagram.png"
+                alt="Logo Instagram"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-twitter.png"
+                alt="Logo Twitter"
+              />Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <h3 class="col-12 col-sm-12 col-md-4 col-lg-4">Derechos de Autor</h3>
+      <div class="logofooter col-12 col-sm-12 col-md-4 col-lg-4">
+        <img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar" />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

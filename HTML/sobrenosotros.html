@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Servicios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="sobrenosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="sobrenosotros-main">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+            <h1>Sobre nosotros</h1>
+            <p>
+              En ServiHogar, somos un equipo apasionado por brindar soluiones
+              confiables y profesionales en el ámbito de servicios domésticos.
+              Fundado con el propósito de facilitar la vida de nuestros
+              clientes, nos enorgullece ser una referencia de calidad y
+              excelencia en el mercado.
+              <br />
+              <br />Nuestro compromiso con la satisfacción del cliente y la
+              atención personalizada es la piedra angular de nuestra empresa.
+              Cada miembro de nuestro equipo está altamente capacitado y
+              motivado para superar las expectativas de quienes confían en
+              nosotros.
+              <br />
+              <br />Valoramos la confianza que nuestros clientes depositan en
+              ServiHogar y, por ello, trabajamos con integridad, puntualidad y
+              eficiencia en cada proyecto. Nuestra misión es transformar tus
+              necesidades domésticas en soluciones efectivas, llevando a tu
+              hogar o comercio la calidez y la comodidad que mereces.
+              <br />
+              <br />Creemos en el poder de la honestidad, la transparencia y la
+              comunicación abierta. Escuchamos atentamente tus requerimientos
+              para ofrecerte un servicio a medida, adaptado a tus necesidades
+              específicas.
+              <br />
+              <br />En ServiHogar, nos mueve la pasión por mejorar la calidad de
+              vida de nuestros clientes, asegurándonos de que sus espacios sean
+              seguros, limpios y funcionales. Cada día, buscamos superar
+              nuestros límites y ofrecer lo mejor de nosotros para marcar una
+              diferencia positiva en la vida de quienes atendemos.
+              <br />
+              <br />¡Gracias por elegir a ServiHogar! Confía en nosotros para
+              transformar tu hogar o comercio en un lugar más confortable y
+              funcional.
+              <br />
+            </p>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+            <video autoplay loop muted src="../IMG/Video-Logo-ServiHogar.mp4">
+              Tu navegador no soporta el video
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- Aca agrego (gracias al nuevo conocimiento de bootstrap) 
+        Un acordeon de preguntas frecuentes, el cual no estaba pensado
+      en el momeneto del wireframe -->
+      <!-- Quiero agregar mas items al acordeon pero se colapsan -->
+      <div class="faq">
+        <h2 class="text-center">Preguntas frecuentes</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Cuáles son las áreas que cubren con sus servicios?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Ofrecemos nuestros servicios en Mar del Plata y sus alrededores.
+                Si no estás seguro de si cubrimos tu área, no dudes en
+                comunicarte con nosotros para confirmar la disponibilidad.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ¿Qué garantías ofrecen en sus servicios?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Garantizamos la calidad de nuestros servicios. Si no estás
+                satisfecho con el resultado, haremos todo lo posible para
+                corregirlo. Además, ofrecemos garantías en ciertos trabajos
+                específicos, como reparaciones eléctricas y de fontanería.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Tienen opciones de paquetes para servicios recurrentes?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Sí, ofrecemos paquetes de servicios recurrentes, como limpieza
+                semanal o mensual. Estos paquetes son ideales para mantener tu
+                hogar en óptimas condiciones de manera constante. Ponte en
+                contacto para conocer más detalles y precios.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contacto col-12 col-sm-12 col-md-4 col-lg-4">
+        <h3>Contacto</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-facebook.png"
+                alt="Logo Facebook"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-instagram.png"
+                alt="Logo Instagram"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../IMG/logo-twitter.png"
+                alt="Logo Twitter"
+              />Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <h3 class="col-12 col-sm-12 col-md-4 col-lg-4">Derechos de Autor</h3>
+      <div class="logofooter col-12 col-sm-12 col-md-4 col-lg-4">
+        <img src="../IMG/Logo-ServiHogar-small.png" alt="Logo ServiHogar" />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
