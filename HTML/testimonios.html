@@ -152,54 +152,65 @@
     que realice el wireframe -->
       <!-- Comentarios que puede enviar la gente -->
       <!-- formulario -->
-      <h2 class="text-center">¿Queres dejarnos tu comentario?</h2>
-      <form action="#" method="get">
-        <div class="formulario">
-          <div class="row">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label for="form-control">Ingrese Nombre</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Nombre"
-                aria-label="First name"
-                required
-              />
+      <div class="comentarios-gente">
+        <h2 class="text-center">¿Queres dejarnos tu comentario?</h2>
+        <form action="#" method="get">
+          <div class="formulario">
+            <div class="row">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  aria-label="First name"
+                  required
+                />
+              </div>
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Apellido"
+                  aria-label="Last name"
+                  required
+                />
+              </div>
             </div>
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label for="form-control">Ingrese Apellido</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Apellido"
-                aria-label="Last name"
-                required
-              />
+            <div class="sexo">
+              <label class="label-fonts" class="label-fonts" for="form-select"
+                >Sexo</label
+              >
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione sexo</option>
+                <option value="1">Masculino</option>
+                <option value="2">Femenino</option>
+                <option value="3">Otro</option>
+              </select>
             </div>
+            <div class="mb-3">
+              <label
+                class="label-fonts"
+                for="exampleFormControlTextarea1"
+                class="form-label"
+                >Opinion sobre el servicio</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
-          <div class="sexo">
-            <label for="form-select">Sexo</label>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Seleccione sexo</option>
-              <option value="1">Masculino</option>
-              <option value="2">Femenino</option>
-              <option value="3">Otro</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Opinion sobre el servicio</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      </form>
+        </form>
+      </div>
     </main>
 
     <footer>

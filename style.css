@@ -284,6 +284,12 @@ footer {
 
 .faq {
   padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.accordion-header{
+  color: black;
 }
 
 .accordion-button {
@@ -327,6 +333,11 @@ footer {
   /* padding-right: 1rem; */
 }
 
+.comentarios-gente{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .formulario {
   width: 50%;
   position: relative;
@@ -345,6 +356,10 @@ footer {
   background-color: #ffde59;
 }
 
+.label-fonts {
+  font-size: 1.4rem;
+}
+
 @media (max-width: 768px) {
   .formulario {
     width: 90%;
@@ -361,6 +376,7 @@ footer {
 
 .titulo-contacto {
   font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .form-floating {
