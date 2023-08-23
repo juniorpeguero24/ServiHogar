@@ -202,7 +202,7 @@ footer {
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: underline;
 }
 
@@ -288,7 +288,11 @@ footer {
   margin-bottom: 2rem;
 }
 
-.accordion-header{
+.faq-titulo{
+  padding-bottom: 1rem;
+}
+
+.accordion-header {
   color: black;
 }
 
@@ -326,16 +330,21 @@ footer {
 
 .card-title {
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .card-title img {
-  width: 2rem;
-  /* padding-right: 1rem; */
+  width: 3rem;
+  padding-right: 1rem;
 }
 
-.comentarios-gente{
+.comentarios-gente {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.comentarios-gente h2{
+  padding-bottom: 1rem;
 }
 
 .formulario {
@@ -357,7 +366,7 @@ footer {
 }
 
 .label-fonts {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 768px) {
@@ -375,7 +384,7 @@ footer {
 }
 
 .titulo-contacto {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
