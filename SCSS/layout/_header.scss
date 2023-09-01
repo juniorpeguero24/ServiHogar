@@ -1,0 +1,36 @@
+header {
+  font-size: 1.2rem;
+  border-bottom: 2px solid white;
+  .bg-header {
+    /* Cambio de color al fondo del modelo de bootstrap */
+    background-color: $colorbg;
+  }
+  .navbar-brand {
+    img {
+      position: relative;
+      left: 1rem;
+      width: 10rem;
+    }
+  }
+  #navbarNav {
+    /* Mover la seccion navegable a la derecha */
+    justify-content: end;
+    ul {
+      li {
+        .nav-link {
+          color: black;
+          &.active {
+            background-color: $colorbg-e;
+            font-weight: bolder;
+            border-radius: 5px;
+          }
+        }
+        a:hover {
+          /* Cambio de forma al pasar por el boton */
+          font-weight: bolder;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
