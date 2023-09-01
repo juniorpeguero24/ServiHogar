@@ -1,0 +1,34 @@
+.sobrenosotros-main {
+  .texto-sobrenosotros {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  video {
+    margin-top: 10rem;
+  }
+  .faq {
+    padding: 2rem;
+    margin-top: 2rem;
+    .faq-titulo {
+      padding-bottom: 1rem;
+    }
+    .accordion {
+      .accordion-item {
+        .accordion-header {
+          .accordion-button {
+            background-color: $colorbg;
+            &:not(.collapsed) {
+              background-color: #e8c22c;
+              font-weight: bolder;
+            }
+          }
+        }
+        .accordion-body {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+}

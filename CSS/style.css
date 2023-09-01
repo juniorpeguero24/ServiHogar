@@ -170,6 +170,31 @@ footer .logofooter img {
   bottom: 11rem;
 }
 
+.sobrenosotros-main .texto-sobrenosotros p {
+  font-size: 1.2rem;
+}
+.sobrenosotros-main video {
+  margin-top: 10rem;
+}
+.sobrenosotros-main .faq {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.sobrenosotros-main .faq .faq-titulo {
+  padding-bottom: 1rem;
+}
+.sobrenosotros-main .faq .accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #ffde59;
+}
+.sobrenosotros-main .faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #e8c22c;
+  font-weight: bolder;
+}
+.sobrenosotros-main .faq .accordion .accordion-item .accordion-body {
+  background-color: black;
+  color: white;
+}
+
 @media (max-width: 575.98px) {
   .inicio-container .carousel-item img {
     height: 20rem;
@@ -211,6 +236,9 @@ footer .logofooter img {
   }
   footer .derecho {
     padding-bottom: 1rem;
+  }
+  .sobrenosotros-main video {
+    width: 18rem;
   }
 }
 @media (max-width: 767.98px) {
