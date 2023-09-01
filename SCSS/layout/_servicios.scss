@@ -1,0 +1,43 @@
+.servicios-main {
+  h1 {
+    font-size: 3rem;
+  }
+  .cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card {
+      margin: 1rem;
+      .card-body {
+        color: white;
+        background-color: black;
+        .card-title {
+          font-size: 2rem;
+          text-decoration: underline;
+        }
+        .card-text {
+          font-size: 1.2rem;
+        }
+        img {
+          width: 5rem;
+        }
+        .boton-contratar {
+          @include boton-contratar(1.2rem, 0.5rem);
+        }
+      }
+    }
+  }
+  .proximamente {
+    img {
+      width: 100%;
+      height: 20rem;
+      margin-top: 3rem;
+      filter: blur(2px);
+    }
+    h2 {
+      color: black;
+      position: relative;
+      bottom: 11rem;
+    }
+  }
+}

@@ -1,13 +1,14 @@
-// BASE
-@import "base/reset";
 // Variables
 @import "utilities/variables";
+// BASE
+@import "base/reset";
 // Componentes
 @import "components/buttons";
 // Layouts
 @import "layout/header";
 @import "layout/main-inicio";
 @import "layout/footer";
+@import "layout/servicios";
 // Medias
 @import "layout/media576";
 @import "layout/media768";
