@@ -1,4 +1,4 @@
-@media (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .inicio-container {
     .texto-promo {
       font-size: 1.5rem;
@@ -6,6 +6,13 @@
       position: relative;
       bottom: 6rem;
       border: 1px dotted white;
+    }
+  }
+  .sobrenosotros-main {
+    video {
+      width: 20rem;
+      margin-top: 25rem;
+      margin-left: 5rem;
     }
   }
 }

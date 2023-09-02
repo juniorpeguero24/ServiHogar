@@ -1,14 +1,15 @@
 .sobrenosotros-main {
   .texto-sobrenosotros {
     h1 {
-      font-size: $font-text;
+      font-size: $font-tit;
     }
     p {
       font-size: 1.2rem;
     }
   }
   video {
-    margin-top: 10rem;
+    margin-top: 12rem;
+    margin-left: 10rem;
   }
   .faq {
     padding: 2rem;

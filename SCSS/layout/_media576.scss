@@ -20,10 +20,10 @@
       }
     }
     .texto-promo {
-      font-size: 0.5rem;
+      font-size: 1rem;
       margin: 0 0;
       position: relative;
-      bottom: 6rem;
+      bottom: 4rem;
       border: 1px dotted white;
     }
   }
@@ -37,7 +37,39 @@
   // Sobrenosotros
   .sobrenosotros-main {
     video {
-      width: 18rem;
+      width: 15rem;
+      margin-top: 2rem;
+      margin-left: initial;
+    }
+  }
+  .servicios-main {
+    .proximamente {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .testimonios-main {
+    .comentarios-gente {
+      .formulario {
+        width: 90%;
+        left: 1rem;
+      }
+    }
+  }
+  .contacto-main {
+    .titulo-contacto {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .formulario {
+      width: 90%;
+      left: 1rem;
+      .form-floating {
+        label {
+          width: 80%;
+        }
+      }
     }
   }
 }

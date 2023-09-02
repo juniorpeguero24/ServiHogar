@@ -1,0 +1,76 @@
+.contacto-main {
+  .titulo-contacto {
+    font-size: $font-tit;
+  }
+  .formulario {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    .form-control {
+      background-color: $colorbg;
+    }
+    .form-select {
+      background-color: $colorbg;
+    }
+    .label-fonts {
+      font-size: 1.3rem;
+    }
+    .form-floating {
+      margin: 1rem;
+    }
+    .servicios-contacto {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      .box-serv {
+        width: 10rem;
+        border: 2px solid white;
+        background-color: $colorbg;
+        color: black;
+        img {
+          width: 3rem;
+        }
+        &:hover,
+        &:active,
+        &:focus-visible {
+          background-color: $colorbg-e;
+          font-weight: bolder;
+          border: 2px dotted white;
+          transition: 1s;
+        }
+      }
+    }
+    .pagos-contacto {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      .box-pagos {
+        width: 10rem;
+        height: auto;
+        border: 2px solid white;
+        background-color: $colorbg;
+        color: black;
+        img {
+          width: 3rem;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: #e8c22c;
+          font-weight: bolder;
+          border: 2px dotted white;
+          transition: 0.5s;
+        }
+      }
+    }
+    .form-check-label {
+      a {
+        color: white;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
+    }
+    .boton-enviar {
+      @include boton-enviar;
+    }
+  }
+}
