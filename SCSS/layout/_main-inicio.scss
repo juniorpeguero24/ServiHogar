@@ -13,17 +13,17 @@
     padding: 2rem;
     background-color: rgb(0, 0, 0, 0.5);
     h1 {
-      font-size: 3rem;
+      font-size: $font-tit;
     }
     p {
-      font-size: 1.5rem;
+      font-size: $font-text;
     }
     .boton-contratar {
       @include boton-contratar(1.2rem, 0.5rem);
     }
   }
   .texto-promo {
-    font-size: 1.5rem;
+    font-size: $font-text;
     margin: 0 20rem;
     position: relative;
     bottom: 6rem;

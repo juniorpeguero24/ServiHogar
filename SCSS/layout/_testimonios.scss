@@ -1,0 +1,55 @@
+.testimonios-main {
+  .titulo-testimonios {
+    font-size: $font-tit;
+    padding-bottom: 2rem;
+  }
+  .cartas {
+    .cartas-arriba {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .card {
+        background-color: black;
+        color: white;
+        margin: 1rem;
+        .card-body {
+          .card-title {
+            align-items: center;
+            font-size: 1.2rem;
+            img {
+              width: 3rem;
+              padding-right: 1rem;
+            }
+          }
+        }
+      }
+    }
+    .cartas-abajo {
+      @extend .cartas-arriba;
+    }
+  }
+  .comentarios-gente {
+    margin-top: 2rem;
+    h2 {
+      padding-bottom: 1rem;
+    }
+    .formulario {
+      width: 50%;
+      position: relative;
+      left: 25%;
+
+      .form-control {
+        background-color: $colorbg;
+      }
+      .form-select {
+        background-color: $colorbg;
+      }
+      .label-fonts {
+        font-size: 1.3rem;
+      }
+      .boton-enviar {
+        @include boton-enviar;
+      }
+    }
+  }
+}

@@ -138,7 +138,7 @@ footer .logofooter img {
   text-decoration: underline;
 }
 .servicios-main .cartas .card .card-body .card-text {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .servicios-main .cartas .card .card-body img {
   width: 5rem;
@@ -165,11 +165,15 @@ footer .logofooter img {
   filter: blur(2px);
 }
 .servicios-main .proximamente h2 {
+  font-size: 3rem;
   color: black;
   position: relative;
   bottom: 11rem;
 }
 
+.sobrenosotros-main .texto-sobrenosotros h1 {
+  font-size: 1.5rem;
+}
 .sobrenosotros-main .texto-sobrenosotros p {
   font-size: 1.2rem;
 }
@@ -193,6 +197,60 @@ footer .logofooter img {
 .sobrenosotros-main .faq .accordion .accordion-item .accordion-body {
   background-color: black;
   color: white;
+}
+
+.testimonios-main .titulo-testimonios {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.testimonios-main .cartas .cartas-arriba, .testimonios-main .cartas .cartas-abajo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.testimonios-main .cartas .cartas-arriba .card, .testimonios-main .cartas .cartas-abajo .card {
+  background-color: black;
+  color: white;
+  margin: 1rem;
+}
+.testimonios-main .cartas .cartas-arriba .card .card-body .card-title, .testimonios-main .cartas .cartas-abajo .card .card-body .card-title {
+  align-items: center;
+  font-size: 1.2rem;
+}
+.testimonios-main .cartas .cartas-arriba .card .card-body .card-title img, .testimonios-main .cartas .cartas-abajo .card .card-body .card-title img {
+  width: 3rem;
+  padding-right: 1rem;
+}
+.testimonios-main .comentarios-gente {
+  margin-top: 2rem;
+}
+.testimonios-main .comentarios-gente h2 {
+  padding-bottom: 1rem;
+}
+.testimonios-main .comentarios-gente .formulario {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+.testimonios-main .comentarios-gente .formulario .form-control {
+  background-color: #ffde59;
+}
+.testimonios-main .comentarios-gente .formulario .form-select {
+  background-color: #ffde59;
+}
+.testimonios-main .comentarios-gente .formulario .label-fonts {
+  font-size: 1.3rem;
+}
+.testimonios-main .comentarios-gente .formulario .boton-enviar {
+  background-color: #ffde59;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.testimonios-main .comentarios-gente .formulario .boton-enviar:hover {
+  font-weight: bolder;
+  background-color: #e8c22c;
+  transition: 1s;
 }
 
 @media (max-width: 575.98px) {
@@ -248,6 +306,11 @@ footer .logofooter img {
     position: relative;
     bottom: 6rem;
     border: 1px dotted white;
+  }
+  .testimonios-main .comentarios-gente .formulario {
+    width: 90%;
+    position: relative;
+    left: 5%;
   }
 }
 @media (max-width: 991.98px) {

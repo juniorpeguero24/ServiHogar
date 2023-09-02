@@ -13,3 +13,15 @@
     transition: 1s;
   }
 }
+
+@mixin boton-enviar {
+  background-color: $colorbg;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 5px;
+  &:hover {
+    font-weight: bolder;
+    background-color: $colorbg-e;
+    transition: 1s;
+  }
+}

@@ -69,84 +69,90 @@
 
     <main class="testimonios-main">
       <!-- titulo -->
-      <h2 class="text-center">Clientes Satisfechos</h2>
+      <h2 class="titulo-testimonios text-center">Clientes Satisfechos</h2>
       <!-- Las 3 cartas de arriba -->
-      <div class="cartas-arriba">
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img src="../IMG/Avatar-mujer.png" alt="Avatar mujer" />María G.
-            </h5>
-            <p class="card-text">
-              "Increíble servicio de limpieza. Mi casa nunca ha estado tan
-              reluciente. ¡Gracias, ServiHogar!"
-            </p>
+      <section class="cartas">
+        <div class="cartas-arriba">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="../IMG/Avatar-mujer.png" alt="Avatar mujer" />María G.
+              </h5>
+              <p class="card-text">
+                "Increíble servicio de limpieza. Mi casa nunca ha estado tan
+                reluciente. ¡Gracias, ServiHogar!"
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="../IMG/avata-hombre.png"
+                  alt="Avatar avata-hombre"
+                />Juan P.
+              </h5>
+              <p class="card-text">
+                "Los plomeros de ServiHogar resolvieron mi problema rápidamente
+                y a un precio justo. ¡Los recomiendo!"
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="../IMG/avatar-mujer2.png" alt="Avatar mujer" /> Laura
+                M.
+              </h5>
+              <p class="card-text">
+                "Excelente atención al cliente. Los gasistas de ServiHogar me
+                ayudaron con la instalación de gas y todo salió perfecto."
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img
-                src="../IMG/avata-hombre.png"
-                alt="Avatar avata-hombre"
-              />Juan P.
-            </h5>
-            <p class="card-text">
-              "Los plomeros de ServiHogar resolvieron mi problema rápidamente y
-              a un precio justo. ¡Los recomiendo!"
-            </p>
+        <!-- 3 cartas de abajo -->
+        <div class="cartas-abajo">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="../IMG/avatar-hombre2.png"
+                  alt="Avatar hombre"
+                />Carlos R.
+              </h5>
+              <p class="card-text">
+                "Los electricistas de ServiHogar hicieron un trabajo impecable.
+                Ahora me siento seguro en mi hogar."
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="../IMG/avatar-mujer3.png" alt="Avatar Mujer" />Ana S.
+              </h5>
+              <p class="card-text">
+                "Contraté a ServiHogar para una limpieza profunda antes de una
+                reunión importante y quedé asombrada con el resultado."
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="../IMG/avatar-hombre3.png" alt="Avatar hombre" />Diego
+                L.
+              </h5>
+              <p class="card-text">
+                "El equipo de ServiHogar fue muy profesional y atento. Los
+                recomendaré a mis amigos y familiares."
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img src="../IMG/avatar-mujer2.png" alt="Avatar mujer" /> Laura M.
-            </h5>
-            <p class="card-text">
-              "Excelente atención al cliente. Los gasistas de ServiHogar me
-              ayudaron con la instalación de gas y todo salió perfecto."
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- 3 cartas de abajo -->
-      <div class="cartas-abajo">
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img src="../IMG/avatar-hombre2.png" alt="Avatar hombre" />Carlos
-              R.
-            </h5>
-            <p class="card-text">
-              "Los electricistas de ServiHogar hicieron un trabajo impecable.
-              Ahora me siento seguro en mi hogar."
-            </p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img src="../IMG/avatar-mujer3.png" alt="Avatar Mujer" />Ana S.
-            </h5>
-            <p class="card-text">
-              "Contraté a ServiHogar para una limpieza profunda antes de una
-              reunión importante y quedé asombrada con el resultado."
-            </p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <img src="../IMG/avatar-hombre3.png" alt="Avatar hombre" />Diego
-              L.
-            </h5>
-            <p class="card-text">
-              "El equipo de ServiHogar fue muy profesional y atento. Los
-              recomendaré a mis amigos y familiares."
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
+
       <!-- Decidi agregarle este formulario donde la gente puede mandar 
       sus opiniones sobre el servicio, que tampoco estaba pensado en el momento
     que realice el wireframe -->
@@ -207,7 +213,7 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="boton-enviar">Enviar</button>
           </div>
         </form>
       </div>

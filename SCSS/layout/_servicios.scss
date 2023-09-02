@@ -1,6 +1,6 @@
 .servicios-main {
   h1 {
-    font-size: 3rem;
+    font-size: $font-tit;
   }
   .cartas {
     display: flex;
@@ -16,7 +16,7 @@
           text-decoration: underline;
         }
         .card-text {
-          font-size: 1.2rem;
+          font-size: $font-text;
         }
         img {
           width: 5rem;
@@ -35,6 +35,7 @@
       filter: blur(2px);
     }
     h2 {
+      font-size: $font-tit;
       color: black;
       position: relative;
       bottom: 11rem;
