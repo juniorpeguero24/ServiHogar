@@ -22,7 +22,7 @@
           width: 5rem;
         }
         .boton-contratar {
-          @include boton-contratar(1.2rem, 0.5rem);
+          @include boton-contratar(1.2rem, 0.5rem, 1rem);
         }
       }
     }

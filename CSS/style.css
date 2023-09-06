@@ -47,14 +47,16 @@ header #navbarNav ul li a:hover {
 
 .inicio-container .carousel-item img {
   /* Propiedades para las imagenes del carrusel */
-  width: 100%;
+  width: 80%;
   height: 40rem;
+  transform: translateX(14%);
   filter: blur(3px);
 }
 .inicio-container .textoimagencentro {
-  position: relative;
-  bottom: 25rem;
+  transform: translate(200%, -200%);
   padding: 2rem;
+  width: fit-content;
+  border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .inicio-container .textoimagencentro h1 {
@@ -65,8 +67,7 @@ header #navbarNav ul li a:hover {
 }
 .inicio-container .textoimagencentro .boton-contratar {
   font-size: 1.2rem;
-  padding: 0.5rem;
-  border: 1px solid #ffde59;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   color: black;
   text-decoration: none;
@@ -75,14 +76,13 @@ header #navbarNav ul li a:hover {
 .inicio-container .textoimagencentro .boton-contratar:hover {
   font-weight: bolder;
   background-color: #e8c22c;
-  border: 1px dotted #e8c22c;
   transition: 1s;
 }
 .inicio-container .texto-promo {
   font-size: 1.5rem;
-  margin: 0 15rem;
-  position: relative;
-  bottom: 6rem;
+  padding: 1rem;
+  width: 60%;
+  transform: translate(33%, -25%);
   border: 1px dotted white;
 }
 
@@ -145,8 +145,7 @@ footer .logofooter img {
 }
 .servicios-main .cartas .card .card-body .boton-contratar {
   font-size: 1.2rem;
-  padding: 0.5rem;
-  border: 1px solid #ffde59;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   color: black;
   text-decoration: none;
@@ -155,7 +154,6 @@ footer .logofooter img {
 .servicios-main .cartas .card .card-body .boton-contratar:hover {
   font-weight: bolder;
   background-color: #e8c22c;
-  border: 1px dotted #e8c22c;
   transition: 1s;
 }
 .servicios-main .proximamente img {
@@ -178,8 +176,7 @@ footer .logofooter img {
   font-size: 1.2rem;
 }
 .sobrenosotros-main video {
-  margin-top: 12rem;
-  margin-left: 10rem;
+  transform: translate(40%, 40%);
 }
 .sobrenosotros-main .faq {
   padding: 2rem;
@@ -187,6 +184,10 @@ footer .logofooter img {
 }
 .sobrenosotros-main .faq .faq-titulo {
   padding-bottom: 1rem;
+}
+.sobrenosotros-main .faq .accordion {
+  width: 80%;
+  transform: translateX(12%);
 }
 .sobrenosotros-main .faq .accordion .accordion-item .accordion-header .accordion-button {
   background-color: #ffde59;
@@ -334,21 +335,22 @@ footer .logofooter img {
 @media (max-width: 575.98px) {
   .inicio-container .carousel-item img {
     height: 20rem;
+    width: 100%;
+    transform: translateX(0);
   }
   .inicio-container .textoimagencentro {
-    position: relative;
-    bottom: 15rem;
+    width: 100%;
+    transform: translate(0, -160%);
   }
   .inicio-container .textoimagencentro h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .inicio-container .textoimagencentro p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .inicio-container .textoimagencentro .boton-contratar {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ffde59;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 5px;
     color: black;
     text-decoration: none;
@@ -357,14 +359,12 @@ footer .logofooter img {
   .inicio-container .textoimagencentro .boton-contratar:hover {
     font-weight: bolder;
     background-color: #e8c22c;
-    border: 1px dotted #e8c22c;
     transition: 1s;
   }
   .inicio-container .texto-promo {
     font-size: 1rem;
-    margin: 0 0;
-    position: relative;
-    bottom: 4rem;
+    width: 100%;
+    transform: translate(0, -10%);
     border: 1px dotted white;
   }
   footer {
@@ -375,8 +375,11 @@ footer .logofooter img {
   }
   .sobrenosotros-main video {
     width: 15rem;
-    margin-top: 2rem;
-    margin-left: initial;
+    transform: translate(0, 5%);
+  }
+  .sobrenosotros-main .faq .accordion {
+    width: 100%;
+    transform: translateX(0);
   }
   .servicios-main .proximamente h2 {
     font-size: 2rem;
@@ -398,17 +401,42 @@ footer .logofooter img {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .inicio-container .carousel-item img {
+    width: 100%;
+    transform: translateX(0);
+  }
+  .inicio-container .textoimagencentro {
+    width: 100%;
+    transform: translate(0%, -220%);
+  }
+  .inicio-container .textoimagencentro h1 {
+    font-size: 2rem;
+  }
+  .inicio-container .textoimagencentro p {
+    font-size: 1.5rem;
+  }
+  .inicio-container .textoimagencentro .boton-contratar {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: #ffde59;
+  }
+  .inicio-container .textoimagencentro .boton-contratar:hover {
+    font-weight: bolder;
+    background-color: #e8c22c;
+    transition: 1s;
+  }
   .inicio-container .texto-promo {
     font-size: 1.5rem;
-    margin: 0 0;
-    position: relative;
-    bottom: 6rem;
+    width: 100%;
+    transform: translate(0, -10%);
     border: 1px dotted white;
   }
   .sobrenosotros-main video {
     width: 20rem;
-    margin-top: 2rem;
-    margin-left: initial;
+    transform: translate(0, 5%);
   }
   .testimonios-main .comentarios-gente .formulario {
     width: 90%;
@@ -421,38 +449,68 @@ footer .logofooter img {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .inicio-container .carousel-item img {
+    height: 30rem;
+    transform: translateX(14%);
+  }
+  .inicio-container .textoimagencentro {
+    transform: translate(60%, -170%);
+  }
+  .inicio-container .textoimagencentro h1 {
+    font-size: 2rem;
+  }
+  .inicio-container .textoimagencentro p {
+    font-size: 1.5rem;
+  }
+  .inicio-container .textoimagencentro .boton-contratar {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: #ffde59;
+  }
+  .inicio-container .textoimagencentro .boton-contratar:hover {
+    font-weight: bolder;
+    background-color: #e8c22c;
+    transition: 1s;
+  }
   .inicio-container .texto-promo {
     font-size: 1.5rem;
-    margin: 0 0;
-    position: relative;
-    bottom: 6rem;
+    width: 80%;
+    transform: translate(15%, -15%);
     border: 1px dotted white;
   }
   .sobrenosotros-main video {
     width: 20rem;
-    margin-top: 2rem;
-    margin-left: initial;
+    transform: translate(0, 5%);
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .inicio-container .textoimagencentro {
+    transform: translate(85%, -200%);
+  }
   .inicio-container .texto-promo {
     font-size: 1.5rem;
-    margin: 0 0;
-    position: relative;
-    bottom: 6rem;
+    width: 80%;
+    transform: translate(13%, -20%);
     border: 1px dotted white;
   }
   .sobrenosotros-main video {
     width: 20rem;
-    margin-top: 25rem;
-    margin-left: 5rem;
+    transform: translate(20%, 100%);
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  .inicio-container .textoimagencentro {
+    transform: translate(130%, -200%);
+  }
+  .inicio-container .texto-promo {
+    transform: translate(35%, -15%);
+  }
   .sobrenosotros-main video {
     width: 25rem;
-    margin-top: 20rem;
-    margin-left: 10rem;
+    transform: translate(30%, 60%);
   }
 }
 

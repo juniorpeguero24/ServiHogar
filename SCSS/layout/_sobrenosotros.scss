@@ -8,8 +8,7 @@
     }
   }
   video {
-    margin-top: 12rem;
-    margin-left: 10rem;
+    transform: translate(40%, 40%);
   }
   .faq {
     padding: 2rem;
@@ -18,6 +17,8 @@
       padding-bottom: 1rem;
     }
     .accordion {
+      width: 80%;
+      transform: translateX(12%);
       .accordion-item {
         .accordion-header {
           .accordion-button {

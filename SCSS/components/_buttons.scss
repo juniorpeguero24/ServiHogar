@@ -1,7 +1,7 @@
-@mixin boton-contratar($font, $padd) {
+@mixin boton-contratar($font, $paddTB, $paddLR) {
   font-size: $font;
-  padding: $padd;
-  border: 1px solid $colorbg;
+  padding: $paddTB $paddLR;
+  // paddTB (TOP BOTTOM) paddLR (Left Right)
   border-radius: 5px;
   color: black;
   text-decoration: none;
@@ -9,7 +9,6 @@
   &:hover {
     font-weight: bolder;
     background-color: $colorbg-e;
-    border: 1px dotted $colorbg-e;
     transition: 1s;
   }
 }

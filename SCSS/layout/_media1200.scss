@@ -1,18 +1,19 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .inicio-container {
+    .textoimagencentro {
+      transform: translate(85%, -200%);
+    }
     .texto-promo {
       font-size: 1.5rem;
-      margin: 0 0;
-      position: relative;
-      bottom: 6rem;
+      width: 80%;
+      transform: translate(13%, -20%);
       border: 1px dotted white;
     }
   }
   .sobrenosotros-main {
     video {
       width: 20rem;
-      margin-top: 25rem;
-      margin-left: 5rem;
+      transform: translate(20%, 100%);
     }
   }
 }

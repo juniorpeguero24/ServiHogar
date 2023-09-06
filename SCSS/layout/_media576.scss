@@ -4,26 +4,27 @@
     .carousel-item {
       img {
         height: 20rem;
+        width: 100%;
+        transform: translateX(0);
       }
     }
     .textoimagencentro {
-      position: relative;
-      bottom: 15rem;
+      width: 100%;
+      transform: translate(0, -160%);
       h1 {
-        font-size: 1.5rem;
-      }
-      p {
         font-size: 1rem;
       }
+      p {
+        font-size: 0.8rem;
+      }
       .boton-contratar {
-        @include boton-contratar(1rem, 0.5rem);
+        @include boton-contratar(0.8rem, 0.5rem, 0.8rem);
       }
     }
     .texto-promo {
       font-size: 1rem;
-      margin: 0 0;
-      position: relative;
-      bottom: 4rem;
+      width: 100%;
+      transform: translate(0, -10%);
       border: 1px dotted white;
     }
   }
@@ -38,8 +39,13 @@
   .sobrenosotros-main {
     video {
       width: 15rem;
-      margin-top: 2rem;
-      margin-left: initial;
+      transform: translate(0, 5%);
+    }
+    .faq {
+      .accordion {
+        width: 100%;
+        transform: translateX(0);
+      }
     }
   }
   .servicios-main {

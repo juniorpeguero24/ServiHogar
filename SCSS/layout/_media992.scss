@@ -1,18 +1,34 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .inicio-container {
+    .carousel-item {
+      img {
+        height: 30rem;
+        transform: translateX(14%);
+      }
+    }
+    .textoimagencentro {
+      transform: translate(60%, -170%);
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      .boton-contratar {
+        @include boton-contratar(1rem, 0.5rem, 0.8rem);
+      }
+    }
     .texto-promo {
       font-size: 1.5rem;
-      margin: 0 0;
-      position: relative;
-      bottom: 6rem;
+      width: 80%;
+      transform: translate(15%, -15%);
       border: 1px dotted white;
     }
   }
   .sobrenosotros-main {
     video {
       width: 20rem;
-      margin-top: 2rem;
-      margin-left: initial;
+      transform: translate(0, 5%);
     }
   }
 }

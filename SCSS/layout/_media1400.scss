@@ -1,9 +1,16 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  .inicio-container {
+    .textoimagencentro {
+      transform: translate(130%, -200%);
+    }
+    .texto-promo {
+      transform: translate(35%, -15%);
+    }
+  }
   .sobrenosotros-main {
     video {
       width: 25rem;
-      margin-top: 20rem;
-      margin-left: 10rem;
+      transform: translate(30%, 60%);
     }
   }
 }
