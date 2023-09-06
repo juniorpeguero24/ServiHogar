@@ -8,16 +8,20 @@
   background-color: $colorbg;
   &:hover {
     font-weight: bolder;
-    background-color: $colorbg-e;
     transition: 1s;
+    background-color: $colorbg-e;
   }
 }
 
 @mixin boton-enviar {
-  background-color: $colorbg;
   color: black;
   padding: 0.5rem;
   border-radius: 5px;
+  animation-name: color-botones;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 1s;
   &:hover {
     font-weight: bolder;
     background-color: $colorbg-e;

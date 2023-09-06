@@ -20,6 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -71,6 +73,7 @@
       <div class="container text-center">
         <div class="row">
           <div
+            data-aos="fade-right"
             class="texto-sobrenosotros col col-12 col-sm-12 col-md-12 col-lg-6"
           >
             <h1>Sobre nosotros</h1>
@@ -110,7 +113,10 @@
               <br />
             </p>
           </div>
-          <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+          <div
+            data-aos="flip-right"
+            class="col col-12 col-sm-12 col-md-12 col-lg-6"
+          >
             <video autoplay loop muted src="../IMG/Video-Logo-ServiHogar.mp4">
               Tu navegador no soporta el video
             </video>
@@ -121,7 +127,7 @@
         Un acordeon de preguntas frecuentes, el cual no estaba pensado
       en el momeneto del wireframe -->
       <!-- Quiero agregar mas items al acordeon pero se colapsan -->
-      <div class="faq">
+      <div class="faq" data-aos="fade-right">
         <h2 class="text-center faq-titulo">Preguntas frecuentes</h2>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -246,5 +252,9 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

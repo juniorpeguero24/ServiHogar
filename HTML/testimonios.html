@@ -20,6 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -72,7 +74,7 @@
       <h2 class="titulo-testimonios text-center">Clientes Satisfechos</h2>
       <!-- Las 3 cartas de arriba -->
       <section class="cartas">
-        <div class="cartas-arriba">
+        <div class="cartas-arriba" data-aos="fade-right">
           <div class="card" style="width: 18rem">
             <div class="card-body">
               <h5 class="card-title">
@@ -112,7 +114,7 @@
           </div>
         </div>
         <!-- 3 cartas de abajo -->
-        <div class="cartas-abajo">
+        <div class="cartas-abajo" data-aos="fade-left">
           <div class="card" style="width: 18rem">
             <div class="card-body">
               <h5 class="card-title">
@@ -160,7 +162,7 @@
       <!-- formulario -->
       <div class="comentarios-gente">
         <h2 class="text-center">¿Queres dejarnos tu comentario?</h2>
-        <form action="#" method="get">
+        <form data-aos="fade-right" action="#" method="get">
           <div class="formulario">
             <div class="row">
               <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
@@ -260,5 +262,9 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

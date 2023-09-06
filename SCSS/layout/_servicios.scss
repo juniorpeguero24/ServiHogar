@@ -10,10 +10,15 @@
       margin: 1rem;
       .card-body {
         color: white;
-        background-color: black;
+        background-image: linear-gradient(to bottom, #000000, #434343);
         .card-title {
           font-size: 2rem;
           text-decoration: underline;
+          animation-name: opacidadletras;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-duration: 3s;
+          animation-delay: 1s;
         }
         .card-text {
           font-size: $font-text;
