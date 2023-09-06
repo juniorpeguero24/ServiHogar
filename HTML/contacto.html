@@ -75,95 +75,97 @@
         arreglar las condiciones de tu servicio
       </h1>
       <!-- formulario para contratar el servicio -->
-      <div class="formulario">
+      <section class="formulario">
         <form action="#" method="get">
-          <div data-aos="fade-right" class="row">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control"
-                >Ingrese Nombre</label
+          <section>
+            <div data-aos="fade-right" class="row">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  aria-label="First name"
+                  required
+                />
+              </div>
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Apellido"
+                  aria-label="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <div data-aos="fade-right" class="row">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese su Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="lionelmessi@gmail.com"
+                  aria-label="Email"
+                  required
+                />
+              </div>
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control"
+                  >Ingrese su numero telefonico</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="cod. area + sin el 15"
+                  aria-label="numero telefonico"
+                  required
+                />
+              </div>
+            </div>
+            <div data-aos="fade-right" class="row">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control">Calle</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Av. Colon"
+                  aria-label="Calle"
+                  required
+                />
+              </div>
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <label class="label-fonts" for="form-control">Numero</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="1234"
+                  aria-label="Numero casa"
+                  required
+                />
+              </div>
+            </div>
+            <div data-aos="fade-right" class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea"
+                >Comentario adicional sobre el hogar</label
               >
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Nombre"
-                aria-label="First name"
-                required
-              />
             </div>
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control"
-                >Ingrese Apellido</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Apellido"
-                aria-label="Last name"
-                required
-              />
-            </div>
-          </div>
-          <div data-aos="fade-right" class="row">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control"
-                >Ingrese su Email</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                placeholder="lionelmessi@gmail.com"
-                aria-label="Email"
-                required
-              />
-            </div>
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control"
-                >Ingrese su numero telefonico</label
-              >
-              <input
-                type="number"
-                class="form-control"
-                placeholder="cod. area + sin el 15"
-                aria-label="numero telefonico"
-                required
-              />
-            </div>
-          </div>
-          <div data-aos="fade-right" class="row">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control">Calle</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Av. Colon"
-                aria-label="Calle"
-                required
-              />
-            </div>
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
-              <label class="label-fonts" for="form-control">Numero</label>
-              <input
-                type="number"
-                class="form-control"
-                placeholder="1234"
-                aria-label="Numero casa"
-                required
-              />
-            </div>
-          </div>
-          <div data-aos="fade-right" class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Leave a comment here"
-              id="floatingTextarea"
-            ></textarea>
-            <label for="floatingTextarea"
-              >Comentario adicional sobre el hogar</label
-            >
-          </div>
+          </section>
           <h2 class="text-center">Ingrese Servicios a contratar</h2>
           <!-- Boxes servicios -->
-          <div
+          <section
             data-aos="fade-right"
             class="container text-center servicios-contacto"
           >
@@ -208,7 +210,7 @@
                 </label>
               </div>
             </div>
-          </div>
+          </section>
           <!-- Boxes forma de pago -->
           <h3 class="text-center">Forma de Pago</h3>
           <p class="text-center">
@@ -290,7 +292,7 @@
             <button class="boton-enviar" type="submit">Enviar</button>
           </div>
         </form>
-      </div>
+      </section>
     </main>
 
     <footer>
