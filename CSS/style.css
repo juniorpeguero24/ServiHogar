@@ -48,7 +48,7 @@
 }
 
 main {
-  background-image: url(../IMG/background-01.jpg);
+  background-image: url(https://images.pexels.com/photos/4814061/pexels-photo-4814061.jpeg);
   color: white;
   padding: 2rem 0;
 }
@@ -253,20 +253,10 @@ footer .logofooter img {
   width: 80%;
   transform: translateX(12%);
 }
-.sobrenosotros-main
-  .faq
-  .accordion
-  .accordion-item
-  .accordion-header
-  .accordion-button {
+.sobrenosotros-main .faq .accordion .accordion-item .accordion-header .accordion-button {
   background-color: #ffde59;
 }
-.sobrenosotros-main
-  .faq
-  .accordion
-  .accordion-item
-  .accordion-header
-  .accordion-button:not(.collapsed) {
+.sobrenosotros-main .faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   background-color: #e8c22c;
   font-weight: bolder;
 }
@@ -284,25 +274,21 @@ footer .logofooter img {
   animation-duration: 2s;
   animation-delay: 0;
 }
-.testimonios-main .cartas .cartas-arriba,
-.testimonios-main .cartas .cartas-abajo {
+.testimonios-main .cartas .cartas-arriba, .testimonios-main .cartas .cartas-abajo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.testimonios-main .cartas .cartas-arriba .card,
-.testimonios-main .cartas .cartas-abajo .card {
+.testimonios-main .cartas .cartas-arriba .card, .testimonios-main .cartas .cartas-abajo .card {
   background-image: linear-gradient(to bottom, #000000, #434343);
   color: white;
   margin: 1rem;
 }
-.testimonios-main .cartas .cartas-arriba .card .card-body .card-title,
-.testimonios-main .cartas .cartas-abajo .card .card-body .card-title {
+.testimonios-main .cartas .cartas-arriba .card .card-body .card-title, .testimonios-main .cartas .cartas-abajo .card .card-body .card-title {
   align-items: center;
   font-size: 1.2rem;
 }
-.testimonios-main .cartas .cartas-arriba .card .card-body .card-title img,
-.testimonios-main .cartas .cartas-abajo .card .card-body .card-title img {
+.testimonios-main .cartas .cartas-arriba .card .card-body .card-title img, .testimonios-main .cartas .cartas-abajo .card .card-body .card-title img {
   width: 3rem;
   padding-right: 1rem;
 }
@@ -380,9 +366,7 @@ footer .logofooter img {
 .contacto-main .formulario .servicios-contacto .box-serv img {
   width: 3rem;
 }
-.contacto-main .formulario .servicios-contacto .box-serv:hover,
-.contacto-main .formulario .servicios-contacto .box-serv:active,
-.contacto-main .formulario .servicios-contacto .box-serv:focus-visible {
+.contacto-main .formulario .servicios-contacto .box-serv:hover, .contacto-main .formulario .servicios-contacto .box-serv:active, .contacto-main .formulario .servicios-contacto .box-serv:focus-visible {
   background-color: #e8c22c;
   font-weight: bolder;
   border: 2px dotted white;
@@ -402,9 +386,7 @@ footer .logofooter img {
 .contacto-main .formulario .pagos-contacto .box-pagos img {
   width: 3rem;
 }
-.contacto-main .formulario .pagos-contacto .box-pagos:hover,
-.contacto-main .formulario .pagos-contacto .box-pagos:active,
-.contacto-main .formulario .pagos-contacto .box-pagos:focus {
+.contacto-main .formulario .pagos-contacto .box-pagos:hover, .contacto-main .formulario .pagos-contacto .box-pagos:active, .contacto-main .formulario .pagos-contacto .box-pagos:focus {
   background-color: #e8c22c;
   font-weight: bolder;
   border: 2px dotted white;
