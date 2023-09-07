@@ -1,6 +1,11 @@
 .servicios-main {
   h1 {
     font-size: $font-tit;
+    animation-name: movimiento-titulos;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-delay: 0;
   }
   .cartas {
     display: flex;
@@ -44,6 +49,11 @@
       color: black;
       position: relative;
       bottom: 11rem;
+      animation-name: escala;
+      animation-iteration-count: 2;
+      animation-timing-function: ease-in;
+      animation-duration: 3s;
+      animation-delay: 1s;
     }
   }
 }

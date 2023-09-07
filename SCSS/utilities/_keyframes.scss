@@ -25,3 +25,27 @@
     opacity: 1;
   }
 }
+
+@keyframes movimiento-titulos {
+  from {
+    transform: translateX(-300%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes escala {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

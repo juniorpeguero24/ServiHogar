@@ -7,15 +7,7 @@
 }
 
 main {
-  /* Pienso cambiar el background pero no he 
-  encontrado el fondo que sea adecuado */
-  // background-color: #121212;
-  background: rgb(67, 67, 67);
-  background: radial-gradient(
-    circle,
-    rgba(67, 67, 67, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background-image: url(/IMG/background-01.jpg);
   color: white;
   padding: 2rem 0;
 }

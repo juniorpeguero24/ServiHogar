@@ -20,6 +20,25 @@
     opacity: 1;
   }
 }
+@keyframes movimiento-titulos {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes escala {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,10 +48,7 @@
 }
 
 main {
-  /* Pienso cambiar el background pero no he 
-  encontrado el fondo que sea adecuado */
-  background: rgb(67, 67, 67);
-  background: radial-gradient(circle, rgb(67, 67, 67) 0%, rgb(0, 0, 0) 100%);
+  background-image: url(/IMG/background-01.jpg);
   color: white;
   padding: 2rem 0;
 }
@@ -76,7 +92,7 @@ header #navbarNav ul li a:hover {
   filter: blur(3px);
 }
 .inicio-container .textoimagencentro {
-  transform: translate(200%, -200%);
+  transform: translate(190%, -200%);
   padding: 2rem;
   width: fit-content;
   border-radius: 5px;
@@ -84,6 +100,11 @@ header #navbarNav ul li a:hover {
 }
 .inicio-container .textoimagencentro h1 {
   font-size: 3rem;
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
 }
 .inicio-container .textoimagencentro p {
   font-size: 1.5rem;
@@ -143,6 +164,11 @@ footer .logofooter img {
 
 .servicios-main h1 {
   font-size: 3rem;
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
 }
 .servicios-main .cartas {
   display: flex;
@@ -195,10 +221,20 @@ footer .logofooter img {
   color: black;
   position: relative;
   bottom: 11rem;
+  animation-name: escala;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 
 .sobrenosotros-main .texto-sobrenosotros h1 {
   font-size: 3rem;
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
 }
 .sobrenosotros-main .texto-sobrenosotros p {
   font-size: 1.2rem;
@@ -232,6 +268,11 @@ footer .logofooter img {
 .testimonios-main .titulo-testimonios {
   font-size: 3rem;
   padding-bottom: 2rem;
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
 }
 .testimonios-main .cartas .cartas-arriba, .testimonios-main .cartas .cartas-abajo {
   display: flex;
@@ -289,6 +330,11 @@ footer .logofooter img {
 
 .contacto-main .titulo-contacto {
   font-size: 3rem;
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
 }
 .contacto-main .formulario {
   width: 50%;
@@ -366,6 +412,13 @@ footer .logofooter img {
   font-weight: bolder;
   background-color: #e8c22c;
   transition: 1s;
+}
+.contacto-main .formulario h3 {
+  animation-name: movimiento-titulos;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+  animation-delay: 0;
 }
 
 @media (max-width: 575.98px) {
