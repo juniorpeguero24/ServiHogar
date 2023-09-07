@@ -1,11 +1,7 @@
 .contacto-main {
   .titulo-contacto {
     font-size: $font-tit;
-    animation-name: movimiento-titulos;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 2s;
-    animation-delay: 0;
+    @include animations(movimiento-titulos, 1, ease-out, 2s, 0);
   }
   .formulario {
     width: 50%;
@@ -78,11 +74,7 @@
       @include boton-enviar;
     }
     h3 {
-      animation-name: movimiento-titulos;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 4s;
-      animation-delay: 0;
+      @include animations(movimiento-titulos, 1, ease-out, 4s, 0);
     }
   }
 }

@@ -1,11 +1,7 @@
 .servicios-main {
   h1 {
     font-size: $font-tit;
-    animation-name: movimiento-titulos;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 2s;
-    animation-delay: 0;
+    @include animations(movimiento-titulos, 1, ease-out, 2s, 0);
   }
   .cartas {
     display: flex;
@@ -19,11 +15,7 @@
         .card-title {
           font-size: 2rem;
           text-decoration: underline;
-          animation-name: opacidadletras;
-          animation-iteration-count: infinite;
-          animation-timing-function: ease-in;
-          animation-duration: 3s;
-          animation-delay: 1s;
+          @include animations(opacidadletras, infinite, ease-in, 3s, 1s);
         }
         .card-text {
           font-size: $font-text;
