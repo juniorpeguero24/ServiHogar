@@ -2,11 +2,7 @@
   .texto-sobrenosotros {
     h1 {
       font-size: $font-tit;
-      animation-name: movimiento-titulos;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-out;
-      animation-duration: 2s;
-      animation-delay: 0;
+      @include animations(movimiento-titulos, 1, ease-out, 2s, 0);
     }
     p {
       font-size: 1.2rem;

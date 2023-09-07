@@ -416,7 +416,7 @@ footer .logofooter img {
 .contacto-main .formulario h3 {
   animation-name: movimiento-titulos;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
   animation-duration: 4s;
   animation-delay: 0;
 }

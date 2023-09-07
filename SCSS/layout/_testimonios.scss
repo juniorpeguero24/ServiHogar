@@ -2,11 +2,7 @@
   .titulo-testimonios {
     font-size: $font-tit;
     padding-bottom: 2rem;
-    animation-name: movimiento-titulos;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 2s;
-    animation-delay: 0;
+    @include animations(movimiento-titulos, 1, ease-out, 2s, 0);
   }
   .cartas {
     .cartas-arriba {
