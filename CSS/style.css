@@ -92,7 +92,9 @@ header #navbarNav ul li a:hover {
   filter: blur(3px);
 }
 .inicio-container .textoimagencentro {
-  transform: translate(190%, -200%);
+  position: relative;
+  left: 46rem;
+  bottom: 26rem;
   padding: 2rem;
   width: fit-content;
   border-radius: 5px;
@@ -429,7 +431,8 @@ footer .logofooter img {
   }
   .inicio-container .textoimagencentro {
     width: 100%;
-    transform: translate(0, -160%);
+    left: 0;
+    bottom: 15rem;
   }
   .inicio-container .textoimagencentro h1 {
     font-size: 1rem;
@@ -496,7 +499,7 @@ footer .logofooter img {
   }
   .inicio-container .textoimagencentro {
     width: 100%;
-    transform: translate(0%, -220%);
+    left: 0;
   }
   .inicio-container .textoimagencentro h1 {
     font-size: 2rem;
@@ -543,7 +546,8 @@ footer .logofooter img {
     transform: translateX(14%);
   }
   .inicio-container .textoimagencentro {
-    transform: translate(60%, -170%);
+    left: 13rem;
+    bottom: 20rem;
   }
   .inicio-container .textoimagencentro h1 {
     font-size: 2rem;
@@ -577,7 +581,7 @@ footer .logofooter img {
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .inicio-container .textoimagencentro {
-    transform: translate(85%, -200%);
+    left: 22rem;
   }
   .inicio-container .texto-promo {
     font-size: 1.5rem;
@@ -592,7 +596,7 @@ footer .logofooter img {
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .inicio-container .textoimagencentro {
-    transform: translate(130%, -200%);
+    left: 26rem;
   }
   .inicio-container .texto-promo {
     transform: translate(35%, -15%);
