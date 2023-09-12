@@ -1,7 +1,8 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .inicio-container {
     .textoimagencentro {
-      transform: translate(130%, -200%);
+      // transform: translate(130%, -200%);
+      left: 26rem;
     }
     .texto-promo {
       transform: translate(35%, -15%);
