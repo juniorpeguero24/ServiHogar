@@ -361,6 +361,7 @@ footer .logofooter img {
 }
 .contacto-main .formulario .servicios-contacto .box-serv {
   width: 10rem;
+  padding-top: 1rem;
   border: 2px solid white;
   background-color: #ffde59;
   color: black;
@@ -379,6 +380,7 @@ footer .logofooter img {
   margin-bottom: 2rem;
 }
 .contacto-main .formulario .pagos-contacto .box-pagos {
+  padding-top: 1rem;
   width: 10rem;
   height: auto;
   border: 2px solid white;
