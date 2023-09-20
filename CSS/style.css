@@ -126,6 +126,7 @@ header #navbarNav ul li a:hover {
 }
 .inicio-container .texto-promo {
   font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   width: 60%;
   transform: translate(33%, -25%);
@@ -240,6 +241,8 @@ footer .logofooter img {
 }
 .sobrenosotros-main .texto-sobrenosotros p {
   font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
 }
 .sobrenosotros-main video {
   transform: translate(40%, 40%);
